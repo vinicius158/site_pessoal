@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site profissional</title>    
+    <link rel = "stylesheet" href = "css/style.css">        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">        
+    <script src="https://kit.fontawesome.com/b9092d7591.js" crossorigin="anonymous"></script>           
+</head>            
+
+<body>    
+
+    <nav>   
+
+    <div class = "topo">         
+
+        <i class="fa fa-laptop"></i>
+        
+        <ul class = "lista">   
+            <li><a href = "#inicio">Início</a></li>    
+                <li><a href = "#tecnologias">Tecnologias</a></li>      
+                    <li><a href = "#projetos">Projetos</a></li>     
+                        <li><a href = "#contato">Contato</a></li>
+        </ul>     
+
+        <i class = "fa fa-bars" id = "barra" onclick = "clicou()"></i>    
+
+        <i class = "fa fa-close"></i>     
+
+    </div>     
+       
+    
+    <div class="menu2">
+        
+        <ul>   
+            <li><a href = "#inicio" onclick = "recolher()">Início</a></li>    
+                <li><a href = "#tecnologias" onclick = "recolher()">Tecnologias</a></li>      
+                    <li><a href = "#projetos" onclick = "recolher()">Projetos</a></li>     
+              <li><a href = "#contato" onclick = "recolher()">Contato</a></li>
+        </ul>
+
+    </div>        
+    
+</nav>      
+
+    <section class = "inicio" id = "inicio">  
+        
+        <div class="content">            
+         
+            <div class="foto">
+             
+            <img src = "img/perfil.jpeg" id = "perfil">                     
+
+            </div>      
+
+            <div class="text">     
+
+                <p class = "text1">Vinícius Bispo - Programador PHP</h1>     
+              
+            <p class = "text2">Sou formado como técnico em Desenvolvimento de Sistemas pela escola técnica Etec Doutora Ruth Cardoso (São vicente-SP),
+             e até aqui venho desenvolvendo soluções para o mercado de trabalho, 
+             tenho conhecimento tanto na parte de Front-end como no Back-end e integração com banco de dados. Além disso tenho experiência com implementação de sistemas
+            que necessitam de algumas bibliotecas adicionais para que o mecanismo de fato consiga alcançar o objetivo que se espera dele.  </p>
+
+            </div>
+   
+        </div>
+
+    </section>        
+
+    <section class = "tecnologias" id = "tecnologias">      
+        
+        <div class="title2">
+         
+            <h2>Tecnologias utilizadas</h2>
+
+        </div>
+
+        <div class="content2">
+             
+            <div class="content3">
+
+  <img  id = "icon" alt="vini-HTML" height="130" width="130"  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img  id = "icon" alt="vini-CSS" height="130" width="130" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img  id = "icon" alt="vini-Js" height="130" width="130" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
+  <img  id = "icon" alt="vini-Js" height="130" width="130" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg">      
+  <img  id = "icon" alt="vini-Js" height="130" width="130" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg">
+  <img  id = "icon" alt="vini-Js" height="130" width="130" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"> 
+
+            </div>
+
+
+        </div>
+
+    </section>         
+
+    <section class = "projetos" id = "projetos">         
+        
+       <div class="title3">
+         
+        <h2>Projetos implementados</h2>         
+
+       </div>            
+
+       <div class="main">       
+
+         <div class="projeto">          
+
+            <img src = "img/gerenciador.png" id = "img2">        
+
+            <p class = "nome">Gerenciador de eventos</p>      
+            
+            <div class="buttons">     
+   
+                <a href = "https://github.com/vinicius158/gerenciador_eventos"><button class = "repositorio">Repositório <i class="fa-brands fa-github"></i></button></a>    
+            
+                <a href = "https://youtu.be/Oc3rzPeEKRA"><button class = "demonstrativo">Demonstrativo <i class="fa-brands fa-youtube"></i></button></a>         
+            
+            </div>     
+
+          </div>       
+
+          <div class="projeto">          
+
+            <img src = "img/relatorios.png" id = "img2">        
+
+            <p class = "nome">Gerador de relatórios</p>      
+            
+            <div class="buttons">     
+   
+                <a href = "https://github.com/vinicius158/relatorios-pdf-"><button class = "repositorio">Repositório <i class="fa-brands fa-github"></i></button></a>    
+            
+                <a href = "https://www.linkedin.com/posts/viniciusdev013_ol%C3%A1-pessoal-hoje-venho-trazer-um-v%C3%ADdeo-demonstrativo-activity-7303620992189276160-w9RP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPGSc0B90cwG5tTprdqPkazicBGHvpkRys"><button class = "demonstrativo">Demonstrativo <i class="fa-brands fa-youtube"></i></button></a>    
+            
+            </div>     
+
+          </div>         
+
+          <div class="projeto">          
+
+            <img src = "img/qrcode.png" id = "img2">        
+
+            <p class = "nome">Conversor de texto em QrCode</p>      
+            
+            <div class="buttons">     
+   
+                <a href = "https://github.com/vinicius158/Qrcode-php"><button class = "repositorio">Repositório <i class="fa-brands fa-github"></i></button></a>    
+            
+                <a href = "https://youtu.be/-oPIDfx5dJo"><button class = "demonstrativo">Demonstrativo <i class="fa-brands fa-youtube"></i></button></a>         
+            
+            </div>     
+
+          </div>         
+
+          <div class="projeto">          
+
+            <img src = "img/redimensionador.png" id = "img2">                
+
+            <p class = "nome">Redimensionador de imagens</p>      
+            
+            <div class="buttons">     
+   
+                <a href = "https://github.com/vinicius158/redimensionador-imagem-"><button class = "repositorio">Repositório <i class="fa-brands fa-github"></i></button></a>    
+            
+                <a href = "https://youtu.be/EqgDHaXxc7g"><button class = "demonstrativo">Demonstrativo <i class="fa-brands fa-youtube"></i></button></a>          
+            
+            </div>     
+
+          </div>            
+
+        </div>
+
+    </section>      
+
+    <section class = "contato" id = "contato">                 
+
+        <div class="title4"><h2>Contato profissional</h2></div>    
+
+        <div class="content5">             
+
+           <a href = "https://wa.me/5513991888412"><i class="fa fa-whatsapp" id = "icon2"aria-hidden="true" style = "font-size:60px;"></i></a>         
+
+           <i class="fa fa-envelope" id = "icon2" aria-hidden="true" style = "font-size:60px;" onclick = "copiar()"></i></a>          
+
+           <a href = "https://www.linkedin.com/in/viniciusdev013"><i class="fa-brands fa-linkedin" id = "icon2"></i></a>                
+
+        </div>        
+
+    </section>     
+
+    <footer class = "rodape">      
+
+        <div class="final"><p class = "fim">Copyright © 2025 Vinícius Bispo</p></div>
+
+    </footer>         
+
+    <script src = "js/menu.js"></script>       
+    
+    <script src = "js/nome.js"></script>      
+    
+    <script src = "js/animation.js"></script>      
+    
+    <script src = "js/copiar.js"></script>   
+
+</body>      
+</html>
