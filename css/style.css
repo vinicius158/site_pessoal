@@ -1,471 +1,544 @@
 *{
 
-margin:0;
-padding:0;    
-left:0;   
-right:0;
-font-family:'Poppins',sans-serif;        
-scroll-behavior: smooth;      
- 
-
-}         
-
-nav{
-
-position:fixed;   
-
-}      
-
-.inicio{
-
-background:black;    
-padding-bottom:80px;      
-
-}                   
-
-.topo{
-
-background:black;        
-color:white;     
-display:flex;      
-align-items:center;    
-justify-content:space-between;       
-padding-top:40px;    
-padding-bottom:40px;     
-padding-left:90px;   
-padding-right:90px;     
-
-}          
-
-.topo .fa-laptop{
-
-font-size:25px;
-
-}
-
-.topo .fa-bars{
-
-display:none;  
-font-size:30px;    
-cursor:pointer;       
-
-}    
-
-.topo .fa-close{
-
-display:none;  
-font-size:30px;    
-cursor:pointer;   
-
-}
-
-.topo ul li{
-
-list-style:none;  
-display:inline-block;            
-
-}    
-
-.topo ul li a{
-
-text-decoration:none;        
-color:white;  
-margin:10px;      
-transition:0.5s;   
-font-size:20px;    
-font-weight:bold;        
-
-}           
-
-.topo ul li a:hover{
-
-color:yellow;    
-
-}
-
-.menu2{
-
-background:#1C1C1C;       
-text-align:center;        
-height:180px;        
-padding-top:25px;       
-display:none;     
-
-}        
-
-.menu2 ul li{
-
-list-style:none;    
-margin-bottom:25px;  
-
-}     
-
-.menu2 ul li a{
-
-text-decoration:none;      
-color:white;       
-transition:0.5s;     
-margin:10px;      
-transition:0.5s;   
-font-size:20px;    
-font-weight:bold;            
-
-}     
-
-.menu2 ul li a:hover{
-
-color:yellow;      
-
-}        
-
-.inicio .content{
-
-display:flex;        
-align-items:center;       
-justify-content:center;   
-flex-direction:row;    
-padding:80px;      
-
-}             
-
-.inicio .content .text .text2{
-
-color:white;  
-text-align:justify;     
-font-size:20px;
-
-}     
-
-.inicio .content .text .text1{
-
-    color:white;      
-    font-size:25px;     
-    margin-bottom:30px;  
-    font-weight:bold;
+    margin:0;
+    padding:0;    
+    left:0;   
+    right:0;
+    font-family:'Poppins',sans-serif;        
+    scroll-behavior: smooth;      
     
-}        
-
-.inicio .content .text{
-
-width:35%;      
-margin-top:70px;   
-margin-left:10%;   
-min-width:350px;   
-
-}
-
-.inicio .content #perfil{
-
-width:300px;   
-height:360px;   
-border-radius:800px;
-margin-top:80px;      
-box-shadow:0 0 10px #0000FF,0 0 20px #0000FF,0 0 40px #0000FF,0 0 80px #0000FF; 
-}            
-
-.show{   
-
-    opacity:1;     
-    transition:all 2s;    
-    filter:blur(0);  
-}
-
-
-.tecnologias{
-
-background:	#1C1C1C; 
-padding-top:20px;  
-padding-bottom:100px; 
-
-}     
-
-.tecnologias .title2 h2{
-
-color:white;   
-margin-top:100px;   
-margin-bottom:30px; 
-
-}         
-
-.content3{
-
-display:flex;   
-flex-direction:row;     
-flex-flow:wrap;    
-margin-left:8%;     
-
-}
-
-.tecnologias .title2{
-
-margin-left:10%;   
-
-}     
-
-#icon{
-
-margin:25px;
-
-}     
-
-.projetos{
-
-background:#4F4F4F;          
-padding-bottom:100px;
-
-}     
-
-.projetos .title3{
-
-padding-top:40px;  
-padding-bottom:40px;     
-
-}       
-
-.projetos .title3 h2{
-
-color:white;       
-float:right;     
-margin-right:18%;   
-margin-bottom:40px; 
-margin-top:100px;
-
-}       
-
-.projeto{
-
-width:420px;   
-height:400px;    
-background:	#D3D3D3;        
-border-radius:10px;
-text-align:center; 
-margin:20px;       
-
-}            
-
-.main{
-
-display:flex;    
-justify-content:center;     
-flex-flow:wrap;           
-width:100%;        
-
-}
-
-.projeto .nome{
-
-font-size:25px;
-font-weight:bold;      
-margin-top:20px;    
-margin-bottom:20px;   
-
-}    
-
-.projeto button{
-
-background:black;      
-padding:10px;      
-border-radius:5px;      
-color:white;  
-font-size:18px;   
-border:none;    
-cursor:pointer;   
-
-}
-
-.projeto #img2{
-
-width:420px;   
-height:220px;   
-border-top-left-radius:10px;   
-border-top-right-radius:10px;      
-
-}      
-
-.content4{
-
-display:flex;     
-flex-direction:row;   
-flex-flow:wrap;                   
-
-}      
-
-.contato{
-
-background:#000000;      
-padding-top:40px;   
-padding-bottom:40px;   
-
-}   
-
-.contato .title4 h2{
-
-color:white;       
-text-align:center;    
-margin-bottom:30px;  
-
-}     
-
-.fa-whatsapp{
-
-color:#00FF00;  
-font-size:40px;          
-
-}       
-
-.fa-envelope{
-
-color:red;  
-cursor:pointer;      
-
-}             
-
-.rodape{
-
-background:#000080;    
-padding-top:20px;  
-padding-bottom:20px;          
-text-align:center;    
-color:white;      
-font-size:13px;    
-
-}               
-
-.fa-linkedin{
-
-color:#00BFFF;  
-font-size:60px;  
-
-}       
-
-.content5{
-
-display:flex;    
-flex-direction:row;    
-justify-content:center;   
-align-items:center;  
-
-}    
-
-.content5 #icon2{
-
-margin:25px;       
-
-}    
-
-.fundo_modal{
-
-width:300px;    
-height:300px;                  
-background-color:rgba(0,0,0,0.6);  
-position:fixed;      
-margin-top:300px;              
-
-}      
-     
-
-
-@media(max-width:942px){
-
-    .inicio .content{
-
-        display:flex;        
-        align-items:center;       
-        justify-content:center;   
-        flex-direction:column;              
-        
-        }              
-
-        .inicio .content .text{
-
-            width:30%;      
-            margin-top:30px;   
-            margin-left:5%;   
-            
-            }      
-
-            .content3{
-
-                justify-content:center;  
-                margin-left:-11%; 
-                
-            }
-
-}           
-
-@media(max-width:760px){
-
-    .topo ul li{
-
-        list-style:none;  
-        display:none;            
-        
+    }         
+    
+    nav{
+    
+    position:fixed;   
+    
+    }      
+    
+    .inicio{
+    
+    background:black;    
+    padding-bottom:80px;      
+    
+    }                   
+    
+    .topo{
+    
+    background:black;        
+    color:white;     
+    display:flex;      
+    align-items:center;    
+    justify-content:space-between;       
+    padding-top:40px;    
+    padding-bottom:40px;     
+    padding-left:90px;   
+    padding-right:90px;     
+    
     }          
-
+    
+    .topo .fa-laptop{
+    
+    font-size:25px;
+    
+    }
+    
     .topo .fa-bars{
-
-        display:block;       
-        font-size:20px;         
-        
-        }        
-        
-    .menu2.active{
-
-        background:#1C1C1C;       
-        text-align:center;        
-        height:180px;        
-        padding-top:25px;       
-        display:block;     
-        transition:0.5s;         
-
+    
+    display:none;  
+    font-size:30px;    
+    cursor:pointer;       
+    
+    }    
+    
+    .topo .fa-close{
+    
+    display:none;  
+    font-size:30px;    
+    cursor:pointer;   
+    
+    }
+    
+    .topo ul li{
+    
+    list-style:none;  
+    display:inline-block;            
+    
+    }    
+    
+    .topo ul li a{
+    
+    text-decoration:none;        
+    color:white;  
+    margin:10px;      
+    transition:0.5s;   
+    font-size:20px;    
+    font-weight:bold;        
+    
+    }           
+    
+    .topo ul li a:hover{
+    
+    color:yellow;    
+    
+    }
+    
+    .menu2{
+    
+    background:#1C1C1C;       
+    text-align:center;        
+    height:250px;            
+    padding-top:25px;       
+    display:none;     
+    
+    }        
+    
+    .menu2 ul li{
+    
+    list-style:none;    
+    margin-bottom:25px;  
+    
     }     
-
-}  
-
-@media(max-width:430px){
-
-section{
-
-width:103%;         
-
-}    
-
-footer{
-
-width:103%;     
-
-}           
-
-.text{
-
-width:100px;     
-
-}      
-
-.inicio .content .text{
-
-text-align:center;          
-margin-left:-1%;    
-
-}         
-
-.projeto{
-
-width:400px;   
-height:400px; 
-
-}      
-
-.projeto #img2{
-
-    width:400px;   
+    
+    .menu2 ul li a{
+    
+    text-decoration:none;      
+    color:white;       
+    transition:0.5s;     
+    margin:10px;      
+    transition:0.5s;   
+    font-size:20px;    
+    font-weight:bold;            
+    
+    }     
+    
+    .menu2 ul li a:hover{
+    
+    color:yellow;      
+    
+    }        
+    
+    .inicio .content{
+    
+    display:flex;        
+    align-items:center;       
+    justify-content:center;   
+    flex-direction:row;    
+    padding:80px;      
+    
+    }             
+    
+    .inicio .content .text .text2{
+    
+    color:white;  
+    text-align:justify;     
+    font-size:20px;
+    
+    }     
+    
+    .inicio .content .text .text1{
+    
+        color:white;      
+        font-size:25px;     
+        margin-bottom:30px;  
+        font-weight:bold;
+        
+    }        
+    
+    .inicio .content .text{
+    
+    width:35%;      
+    margin-top:70px;   
+    margin-left:10%;   
+    min-width:350px;   
+    
+    }
+    
+    .inicio .content #perfil{
+    
+    width:300px;   
+    height:360px;   
+    border-radius:800px;
+    margin-top:80px;      
+    box-shadow: 0 0 10px #0000FF,0 0 20px #0000FF,0 0 40px #0000FF,0 0 80px #0000FF; 
+    
+    }            
+    
+    .show{   
+    
+        opacity:1;     
+        transition:all 2s;    
+        filter:blur(0);  
+    }
+    
+    
+    .tecnologias{
+    
+    background:	#1C1C1C; 
+    padding-top:40px;  
+    padding-bottom:120px; 
+    
+    }        
+    
+    .tecnologias .title2 h2{
+    
+    color:white;   
+    margin-top:100px;   
+    margin-bottom:30px; 
+    
+    }         
+    
+    .content3{
+    
+    display:flex;   
+    flex-direction:row;     
+    flex-flow:wrap;    
+    margin-left:8%;     
+    
+    }
+    
+    .tecnologias .title2{
+    
+    margin-left:10%;   
+    
+    }     
+    
+    #icon{
+    
+    margin:25px;
+    
+    }     
+    
+    .projetos{
+    
+    background:#4F4F4F;          
+    padding-bottom:100px;
+    
+    }     
+    
+    .projetos .title3{
+    
+    padding-top:40px;  
+    padding-bottom:40px;     
+    
+    }       
+    
+    .projetos .title3 h2{
+    
+    color:white;       
+    float:right;     
+    margin-right:18%;   
+    margin-bottom:40px; 
+    margin-top:100px;
+    
+    }       
+    
+    .projeto{
+    
+    width:420px;   
+    height:400px;    
+    background:	#D3D3D3;        
+    border-radius:10px;
+    text-align:center; 
+    margin:20px;       
+    
+    }            
+    
+    .main{
+    
+    display:flex;    
+    justify-content:center;     
+    flex-flow:wrap;           
+    width:100%;          
+    
+    }
+    
+    .projeto .nome{
+    
+    font-size:25px;
+    font-weight:bold;      
+    margin-top:20px;    
+    margin-bottom:20px;   
+    
+    }    
+    
+    .projeto button{
+    
+    background:black;      
+    padding:10px;      
+    border-radius:5px;      
+    color:white;  
+    font-size:18px;   
+    border:none;    
+    cursor:pointer;   
+    
+    }
+    
+    .projeto #img2{
+    
+    width:420px;   
     height:220px;   
     border-top-left-radius:10px;   
     border-top-right-radius:10px;      
     
     }          
-
-
-
     
-}
+    .contato{
+    
+    background:#000000;      
+    padding-top:40px;   
+    padding-bottom:40px;   
+    
+    }   
+    
+    .contato .title4 h2{
+    
+    color:white;       
+    text-align:center;    
+    margin-bottom:30px;  
+    
+    }     
+    
+    .fa-whatsapp{
+    
+    color:#00FF00;  
+    font-size:40px;          
+    
+    }       
+    
+    .fa-envelope{
+    
+    color:red;  
+    cursor:pointer;      
+    
+    }             
+    
+    .rodape{
+    
+    background:#000080;    
+    padding-top:20px;  
+    padding-bottom:20px;          
+    text-align:center;    
+    color:white;      
+    font-size:13px;    
+    
+    }               
+    
+    .fa-linkedin{
+    
+    color:#00BFFF;  
+    font-size:60px;  
+    
+    }       
+    
+    .content5{
+    
+    display:flex;    
+    flex-direction:row;    
+    justify-content:center;   
+    align-items:center;  
+    
+    }    
+    
+    .content5 #icon2{
+    
+    margin:25px;       
+    
+    }    
+    
+    .fundo_modal{
+    
+    width:300px;    
+    height:300px;                  
+    background-color:rgba(0,0,0,0.6);  
+    position:fixed;      
+    margin-top:300px;              
+    
+    }         
+    
+    .content4{
+
+    display:flex;         
+    align-items:center;      
+    justify-content:center;   
+    flex-direction:row;       
+    flex-flow:wrap;             
+
+    }   
+    
+    .text5{
+
+    text-align:center;   
+    margin-bottom:20px;
+
+    }
+
+    .title6{
+  
+    color:white;   
+
+    }
+
+    .habilidades .content4 ul li{
+
+    list-style:none;   
+    margin-top:35px;    
+    font-size:20px;    
+    font-weight:bold; 
+    color:white;   
+
+    }    
+         
+    .habilidades{
+
+    background:#4682B4;   
+    padding-top:130px;   
+    padding-bottom:130px;    
+
+    }                   
+
+    #habilidades{
+    
+    width:320px;   
+    height:320px;  
+    margin-left:25%;  
+
+    }     
+
+    .icone{
+
+    padding-top:30px;
+
+    }    
+
+    .list{
+
+    margin-right:5%;  
+
+    }
+    
+    @media(max-width:943px){
+    
+        .inicio .content{
+    
+            display:flex;        
+            align-items:center;       
+            justify-content:center;   
+            flex-direction:column;              
+            
+            }              
+    
+            .inicio .content .text{
+    
+                width:30%;      
+                margin-top:30px;   
+                margin-left:5%;   
+                
+                }      
+    
+                .content3{
+    
+                    justify-content:center;  
+                    margin-left:18px; 
+                    
+                }      
+    
+    }           
+    
+    @media(max-width:846px){
+    
+        .topo ul li{
+    
+            list-style:none;  
+            display:none;            
+            
+        }          
+    
+        .topo .fa-bars{
+    
+            display:block;       
+            font-size:20px;         
+            
+            }        
+            
+        .menu2.active{
+    
+            background:#1C1C1C;       
+            text-align:center;        
+            height:250px;        
+            padding-top:25px;       
+            display:block;     
+            transition:0.5s;         
+    
+        }           
+        
+        .content4{
+
+        flex-direction:column-reverse;                 
+
+        }     
+        
+        .content4 .icone{
+
+        margin-left:-30%; 
+
+        }     
+
+        .content4 .list{
+
+        margin-left:10%;    
+
+        }
+    
+    }  
+    
+    @media(max-width:430px){
+    
+    section{
+    
+    width:103%;         
+    
+    }    
+    
+    footer{
+    
+    width:103%;     
+    
+    }           
+    
+    .text{
+    
+    width:100px;     
+    
+    }      
+    
+    .inicio .content .text{
+    
+    text-align:center;          
+    margin-left:-1%;    
+    
+    }         
+    
+    .projeto{
+    
+    width:400px;   
+    height:400px; 
+    
+    }      
+    
+    .projeto #img2{
+    
+        width:400px;   
+        height:220px;   
+        border-top-left-radius:10px;   
+        border-top-right-radius:10px;      
+        
+        }          
+    
+        .tecnologias .title2{
+    
+            margin-left:15%;   
+            
+        }
+    
+        
+    }
